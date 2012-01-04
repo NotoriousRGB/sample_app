@@ -12,6 +12,10 @@ group :test, :development do
 	gem 'rspec-rails', '~> 2.6'
 end
 
+group :test do
+	gem 'spork', '~> 0.9.0.rc'
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
